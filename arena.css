@@ -1,20 +1,9 @@
 @font-face {
-    font-family: 'Mortal Kombat 3';
-    src: url('./assets/fonts/MortalKombat3-Regular.eot');
-    src: url('./assets/fonts/MortalKombat3-Regular.eot?#iefix') format('embedded-opentype'),
-    url('./assets/fonts/MortalKombat3-Regular.woff2') format('woff2'),
-    url('./assets/fonts/MortalKombat3-Regular.woff') format('woff'),
-    url('./assets/fonts/MortalKombat3-Regular.ttf') format('truetype');
+    font-family: 'Viaoda';
+    src: url('./assets/fonts/ViaodaLibre-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-}
-
-
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
 }
 
 html {
@@ -136,7 +125,7 @@ body {
 
 .name {
     position: absolute;
-    font-family: 'Mortal Kombat 3';
+    font-family: 'Viaoda';
     font-size: 26px;
     line-height: 20px;
     letter-spacing: 2px;
@@ -221,7 +210,7 @@ body {
     border-radius: 4px;
     box-sizing: border-box;
     cursor: pointer;
-    font-family: "Mortal Kombat 3";
+    font-family: 'Viaoda';
     outline: none;
 }
 .button::after {
@@ -271,7 +260,7 @@ body {
     text-transform: uppercase;
     z-index: 1000;
     color: white;
-    font-family: "Mortal Kombat 3";
+    font-family: 'Viaoda';
     text-shadow: 2px 2px 2px #cd0e03;
 }
 
@@ -331,16 +320,16 @@ form:invalid button[class=button]:active::after {
     text-align: center;
     margin: 0 auto 20px;
     font-weight: 700;
-    font-family: 'Mortal Kombat 3';
+    font-family: 'Viaoda';
     color: #efefef;
     text-transform: uppercase;
 }
 
 .ul {
-    border: solid 3px #cd0e03;
+    border: solid 3px #f8ca85;
     height: 50px;
     padding: 0 12px;
-    font-family: 'Mortal Kombat 3';
+    font-family: 'Viaoda';
     display: flex;
     justify-content: space-between;
     color: #efefef;
@@ -373,7 +362,7 @@ form:invalid button[class=button]:active::after {
     transition: 0.3s;
 }
 .ul label span:hover {
-    background-color: rgba(107, 185, 240, 0.2);
+    background-color: rgba(232, 236, 195, 0.747);
 }
 
 input {
@@ -385,7 +374,7 @@ input[type=radio]:checked + label > span {
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
 }
 input[type=radio]:checked + label > span::before {
-    background: #f5d100;
+    background: #d8cd8e;
     box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
 }
 input[type=radio]:checked + label > span:hover {

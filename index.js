@@ -2,8 +2,7 @@
 import Game from "./game.js";
 const $parent = document.querySelector('.parent');
 const $player = document.querySelector('.player');
-const $music = document.getElementById('music');
-//$music.addEventListener('load', play);
+
 let styles = {};
 styles.width = '165px';  // задаем параметры
 styles.height = '535px';
@@ -28,8 +27,8 @@ function Animation(spriteLight, Name, styles) {
 		}
 	img.src = Name; 
 }
-Animation('spriteLight', 'lightning.png', styles); 
-Animation('spriteLight1', 'lightning.png', styles); 
+Animation('spriteLight', '/image/lightning.png', styles); 
+Animation('spriteLight1', '/image/lightning.png', styles); 
 //SPA
 let SPAState = {};
 
