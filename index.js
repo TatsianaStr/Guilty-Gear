@@ -2,7 +2,8 @@
 import Game from "./game.js";
 const $parent = document.querySelector('.parent');
 const $player = document.querySelector('.player');
-
+const $music = document.getElementById('music');
+//$music.addEventListener('load', play);
 let styles = {};
 styles.width = '165px';  // задаем параметры
 styles.height = '535px';
